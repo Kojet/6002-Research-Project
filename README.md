@@ -1,7 +1,7 @@
 # 6002-Research-Project
 
 ## Variables referenced Hull and Qiao's research [2017]
-DP: Dividend–Price Ratio (Column AD) \newline
+DP: Dividend–Price Ratio (Column AD) <br />
 PE: Price-to-Earnings Ratio (Column E)
 BM: Book-to-Market Ratio (Column AE)
 CAPE: Cyclically Adjusted Price to Earnings Ratio (Column CF)
