@@ -19,3 +19,10 @@
 **MA**: Moving Average <br />
 **OIL**: Oil Price Shocks (Unknown) <br />
 **SI**: Short Interest (Column AG) <br />
+
+## New Variables from Dataset
+**trans_PX_OPEN**: Philex Mining Corp Stock Open Price <br />
+Philex Mining Corporation是东南亚历史最悠久、规模最大的铜和黄金生产商之一，也是该国正确和有原则采矿的领导者。<br />
+**trans_PCUSEQTR**: CBOE Equity Put/Call Ratio <br />
+美国喜欢用该指标来观察短线市场对股市乐观与悲观的态度，当该指标达极高水准时，显示市场过度悲观，行情可能转而上涨，反之亦然。<br />
+.....
