@@ -18,9 +18,10 @@
 
 7. **TERM**: Term Spread (Column C - Column B) <br />
 
-8. **CAY**: Cointegrating Residual of Consumption, Assets, and Wealth (Cointegrating Residual of Column BC, Column BD and Column BE) <br />
-$Assets = \beta_0 + \beta_1\times Consumption + \beta_2\times Wealth + \epsilon$
-Assets = Assets_new (Column BD); Consumption = Consumption_new (Column BC); Wealth = Income_new (Column BE); Cointegrating Residual = $\epsilon$
+8. **CAY**: Cointegrating Residual of Consumption, Assets, and Wealth <br />
+$Assets = \beta_0 + \beta_1\times Consumption + \beta_2\times Wealth + \epsilon_t$ <br />
+Assets = Assets_new (Column BD); Consumption = Consumption_new (Column BC); Wealth = Income_new (Column BE); <br />
+Cointegrating Residual = $\epsilon_t$
 
 9. **SIM**: Sell in May and Go Away (Column BW) <br />
 
