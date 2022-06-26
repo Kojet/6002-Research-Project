@@ -74,4 +74,9 @@ Philex Mining Corporation是东南亚历史最悠久、规模最大的铜和黄�
 
 2. **trans_PCUSEQTR**: CBOE Equity Put/Call Ratio (Column M) <br />
 美国喜欢用该指标来观察短线市场对股市乐观与悲观的态度，当该指标达极高水准时，显示市场过度悲观，行情可能转而上涨，反之亦然。<br />
-.....
+
+3. **BFCIUS**: Bloomberg U.S. Financial Conditions Index (Column R) <br />
+BFCIUS指数是一个Z分数，表示当前金融状况偏离正常(危机前)水平的标准偏差数量。
+
+4. **BER**: Break even rate (Column AB) <br />
+ 盈亏平衡率,通胀调整后的收益率与常规10年期国债收益率之间的差值。
