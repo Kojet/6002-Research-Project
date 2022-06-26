@@ -80,3 +80,6 @@ BFCIUS指数是一个Z分数，表示当前金融状况偏离正常(危机前)�
 
 4. **BER**: Break even rate (Column AB) <br />
  盈亏平衡率,通胀调整后的收益率与常规10年期国债收益率之间的差值。
+ 
+5. **trans_TYVIX**: CBOE/CBOT 10-year US Treasury Note Volatility Index (Column BF) <br />
+TYVIX指数衡量利率市场的预期波动性。该指数使用CBOT10年期国债期权的透明价格计算，并在整个交易日不断更新和传播。
