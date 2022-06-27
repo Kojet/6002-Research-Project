@@ -24,14 +24,14 @@
 BAA(Column Z) - AAA(Column AF)
 
 7. **TERM**: Term Spread <br />
-使用Aaa债券投资组合的收益率与一个月国库券利率之间的差值作为跟踪商业周期的变量。如果今天的TERM很高，那么未来的贴现率很高，股权溢价也很高。
+使用Aaa债券投资组合的收益率与一个月国库券利率之间的差值作为跟踪商业周期的变量。如果今天的TERM很高，那么未来的贴现率很高，股权溢价也很高。<br />
 US10YR(Column C) - US3M(Column B)
 
 8. **CAY**: Cointegrating Residual of Consumption, Assets, and Wealth <br />
 这个想法是协整残差是平稳的，它们包含的信息可能与贴现率相关。今天较大的CAY值表明未来的回报率很高，并且CAY在一年内的表现优于股息收益率。<br />
 $Assets = \beta_0 + \beta_1\times Consumption + \beta_2\times Wealth + \epsilon_t$ <br />
-Assets = Assets_new (Column BD); Consumption = Consumption_new (Column BC); Wealth = Income_new (Column BE); <br />
-Cointegrating Residual = $\epsilon_t$
+Assets = Assets_new (Column BD); Consumption = Consumption_new (Column BC); <br />
+Wealth = Income_new (Column BE); Cointegrating Residual = $\epsilon_t$
 
 9. **SIM**: Sell in May and Go Away (Column BW) <br />
 假期时间和对来年的乐观情绪会在夏季月份产生较低的回报，而进入来年的回报会更高。平均而言，5月至10月的市场回报率较低，而11月至4月的市场回报率较高。
