@@ -69,18 +69,16 @@ trans_spy_open(Column CV) / trans_SPGSCI(Column J)
 
 ## New Variables from Dataset
 
-1. **trans_PCUSEQTR**: CBOE Equity Put/Call Ratio (Column M) <br />
-美国喜欢用该指标来观察短线市场对股市乐观与悲观的态度，当该指标达极高水准时，显示市场过度悲观，行情可能转而上涨，反之亦然。<br />
+1. **trans_MVOLE**: Total Exchange Volume (Column N) <br />
 
-2. **trans_MVOLE**: Total Exchange Volume <br />
-
-3. **trans_BFCIUS**: Bloomberg U.S. Financial Conditions Index (Column R) <br />
-BFCIUS指数是一个Z分数，表示当前金融状况偏离正常(危机前)水平的标准偏差数量。
-
-4. **BER**: Break even rate (Column AB) <br />
+2. **BER**: Break Even Rate (Column AB) <br />
  盈亏平衡率,通胀调整后的收益率与常规10年期国债收益率之间的差值。
 
-5. **NAPMPRIC**: NAPM survey about prices of raw materials <br />
+3. **NAPMPRIC**: NAPM survey about prices of raw materials (Column AP) <br />
+
+4. **CATY**: Cyclically Adjusted Total Yield (Column CG) <br />
+CATY = Dividend Yield + Buyback Yield Adjusted for Inflation
+
+5. **IND-PROD**: Industrial Production Index (Column CN) <br />
  
-6. **trans_TYVIX**: CBOE/CBOT 10-year US Treasury Note Volatility Index (Column BF) <br />
-TYVIX指数衡量利率市场的预期波动性。该指数使用CBOT10年期国债期权的透明价格计算，并在整个交易日不断更新和传播。
+
