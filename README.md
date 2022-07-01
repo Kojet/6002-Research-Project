@@ -79,6 +79,6 @@ trans_spy_open(Column CV) / trans_SPGSCI(Column J)
 4. **CATY**: Cyclically Adjusted Total Yield (Column CG) <br />
 CATY = Dividend Yield + Buyback Yield Adjusted for Inflation
 
-5. **IND-PROD**: Industrial Production Index (Column CN) <br />
+5. **IND_PROD**: Industrial Production Index (Column CN) <br />
  
 
