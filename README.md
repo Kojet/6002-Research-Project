@@ -59,10 +59,19 @@ trans_spy_open(Column CV) / trans_SPGSCI(Column J)
 16. **MA**: Moving Average <br />
 基于当前价格与过去10个月简单移动平均线的相对水平的买卖规则。如果当前月价高于过去10个月移动平均线，则为买入信号，预计未来市场回报将很高。
 
-17. **OIL**: Oil Price Shocks (Unknown) <br />
+17. **OBV**: On Balanced Volume <br />
+收支平衡交易量是一种技术分析指标，旨在将股票市场中的价格和交易量联系起来。OBV基于累计总交易量。<br />
+A. If today's closing price is higher than yesterday's closing price, then: Current OBV = Previous OBV + today's volume <br />
+B. If today's closing price is lower than yesterday's closing price, then: Current OBV = Previous OBV - today's volume <br />
+C. If today's closing price equals yesterday's closing price, then: Current OBV = Previous OBV
+
+18. **MOM**: The Momentum Indicator <br />
+动量指标是衡量证券变化率的领先指标, 它将当前价格与多个时期前的价格进行比较。
+
+19. **OIL**: Oil Price Shocks (Unknown) <br />
 油价变化是短期内股票超额收益的有力预测指标。如果油价很高，那么未来的回报率预计会很低。
 
-18. **SI**: Short Interest (Column AG) <br />
+20. **SI**: Short Interest (Column AG) <br />
 使用空头利息的平均值除以个股的流通股总数作为回报预测指标。高当前SI表明股权溢价低。
 
 
