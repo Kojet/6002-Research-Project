@@ -89,5 +89,6 @@ C. If today's closing price equals yesterday's closing price, then: Current OBV 
 CATY = Dividend Yield + Buyback Yield Adjusted for Inflation
 
 5. **IND_PROD**: Industrial Production Index (Column CN) <br />
+工业生产指数是由美国联邦储备委员会发布的经济指标，用于衡量制造业，采矿业和公用事业的实际产量。
  
 
