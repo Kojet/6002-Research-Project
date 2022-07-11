@@ -68,9 +68,6 @@ C. If today's closing price equals yesterday's closing price, then: Current OBV 
 18. **MOM**: The Momentum Indicator <br />
 动量指标是衡量证券变化率的领先指标, 它将当前价格与多个时期前的价格进行比较。
 
-19. **OIL**: Oil Price Shocks (Unknown) <br />
-油价变化是短期内股票超额收益的有力预测指标。如果油价很高，那么未来的回报率预计会很低。
-
 20. **SI**: Short Interest (Column AG) <br />
 使用空头利息的平均值除以个股的流通股总数作为回报预测指标。高当前SI表明股权溢价低。
 
@@ -78,17 +75,15 @@ C. If today's closing price equals yesterday's closing price, then: Current OBV 
 
 ## New Variables from Dataset
 
-1. **trans_MVOLE**: Total Exchange Volume (Column N) <br />
-
-2. **BER**: Break Even Rate (Column AB) <br />
+1. **BER**: Break Even Rate (Column AB) <br />
  盈亏平衡率,通胀调整后的收益率与常规10年期国债收益率之间的差值。
 
-3. **NAPMPRIC**: NAPM survey about prices of raw materials (Column AP) <br />
+2. **NAPMPRIC**: ISM Manufacturing Report on Business Prices Index NSA (Column AP) <br />
 
-4. **CATY**: Cyclically Adjusted Total Yield (Column CG) <br />
+3. **CATY**: Cyclically Adjusted Total Yield (Column CG) <br />
 CATY = Dividend Yield + Buyback Yield Adjusted for Inflation
 
-5. **IND_PROD**: Industrial Production Index (Column CN) <br />
+4. **IND_PROD**: Industrial Production Index (Column CN) <br />
 工业生产指数是由美国联邦储备委员会发布的经济指标，用于衡量制造业，采矿业和公用事业的实际产量。
  
 
